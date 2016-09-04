@@ -1,0 +1,33 @@
+$headerBackground: blue;
+$navBackground: lighten(blue, 20%);
+
+@media screen and (min-width: 300px) {
+  #header {
+    flex-direction: column;
+    .l {
+      min-width: 100%;
+      border: solid red 1px;
+      background-color: blue;
+      h4 {
+        color: white;
+
+      }
+    }
+    .r {
+      min-width: 100%;
+      background-color: $headerBackground;
+      a {
+        width: 25%;
+        border: solid green 1px;
+        display: flex;
+        justify-content: center;
+        padding: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 300;
+        text-decoration: none;
+        color: white;
+        background-color: $navBackground;
+      }
+    }
+  }
+}

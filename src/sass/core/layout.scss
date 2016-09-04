@@ -1,0 +1,33 @@
+@import 'mobile/layout';
+
+#header {
+  width: 100%;
+  border: solid pink 2px;
+  display: flex;
+  align-items: center;
+  .l {
+    width: 30%;
+    h4 {
+      margin: 0;
+      padding: 10px 5%;
+    }
+  }
+  .r {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+#content {
+  border: solid purple 22px;
+}
+
+#footer {
+  border: solid red 1px;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  background-color: grey;
+  bottom: 0px;
+}
